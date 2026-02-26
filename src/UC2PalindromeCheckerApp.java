@@ -1,8 +1,13 @@
+import java.util.Scanner;
+
 public class UC2PalindromeCheckerApp {
+    import java.util.Scanner;
     public static void main(String[] args) {
 
         // Hardcoded string (String Literal)
-        String word = "madam";
+        Scanner sc = new Scanner(System.in);
+
+
 
         // Variable to store reversed string
         String reversedWord = "";
